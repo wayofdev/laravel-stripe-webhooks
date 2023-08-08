@@ -14,8 +14,8 @@ use WayOfDev\Cycle\Testing\Concerns\InteractsWithDatabase;
 use WayOfDev\Cycle\Testing\RefreshDatabase;
 use WayOfDev\StripeWebhooks\Bridge\Laravel\Providers\StripeWebhooksServiceProvider;
 use WayOfDev\WebhookClient\Bridge\Laravel\Providers\WebhookClientServiceProvider;
-
 use WayOfDev\WebhookClient\Persistence\ORMWebhookCallRepository;
+
 use function array_merge;
 use function hash_hmac;
 use function json_encode;
