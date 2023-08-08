@@ -1,6 +1,6 @@
 {
-    "version": "2.1.72",
+    "version": "1.0.0",
     "repository": {
-        "url": "https://github.com/wayofdev/laravel-package-tpl.git"
+        "url": "https://github.com/wayofdev/laravel-stripe-webhooks.git"
     }
 }

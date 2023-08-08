@@ -1,12 +1,12 @@
 {
-    "name": "wayofdev/laravel-package-tpl",
+    "name": "wayofdev/laravel-stripe-webhooks",
     "description": "PHP package template with GitHub Actions",
     "type": "library",
     "license": "MIT",
     "homepage": "https://wayof.dev",
     "support": {
-        "issues": "https://github.com/wayofdev/laravel-package-tpl/issues",
-        "source": "https://github.com/wayofdev/laravel-package-tpl"
+        "issues": "https://github.com/wayofdev/laravel-stripe-webhooks/issues",
+        "source": "https://github.com/wayofdev/laravel-stripe-webhooks"
     },
     "authors": [
         {
@@ -16,10 +16,13 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/contracts": "^v10.13"
+        "cycle/orm": "^2.3",
+        "laravel/framework": "^v10.17",
+        "stripe/stripe-php": "^10.20",
+        "wayofdev/laravel-webhook-client": "^1.0"
     },
     "require-dev": {
-        "ergebnis/composer-normalize": "^2.31",
+        "ergebnis/composer-normalize": "^2.34",
         "nunomaduro/larastan": "^2.6",
         "orchestra/testbench": "^8.5",
         "pestphp/pest": "^2.6",
@@ -35,20 +38,20 @@
     },
     "autoload": {
         "psr-4": {
-            "WayOfDev\\Package\\": "src/"
+            "WayOfDev\\StripeWebhooks\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "WayOfDev\\Package\\App\\": "tests/app/",
-            "WayOfDev\\Package\\Tests\\": "tests/src/"
+            "WayOfDev\\StripeWebhooks\\App\\": "tests/app/",
+            "WayOfDev\\StripeWebhooks\\Tests\\": "tests/src/"
         }
     },
     "scripts": {
         "cs:fix": "php vendor/bin/php-cs-fixer fix -v",
         "cs:diff": "php vendor/bin/php-cs-fixer fix --dry-run -v --diff",
-        "test": "XDEBUG_MODE=coverage php vendor/bin/pest",
-        "test:cc": "XDEBUG_MODE=coverage php vendor/bin/pest --coverage",
+        "test": "XDEBUG_MODE=coverage php vendor/bin/pest --colors=always",
+        "test:cc": "XDEBUG_MODE=coverage php vendor/bin/pest --colors=always --coverage-clover coverage.xml",
         "stan": "php vendor/bin/phpstan analyse --memory-limit=2G",
         "stan:ci": "php vendor/bin/phpstan analyse --memory-limit=2G --error-format=github"
     },
@@ -63,7 +66,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "WayOfDev\\Package\\Bridge\\Laravel\\Providers\\PackageServiceProvider"
+                "WayOfDev\\StripeWebhooks\\Bridge\\Laravel\\Providers\\StripeWebhooksServiceProvider"
             ]
         },
         "composer-normalize": {
