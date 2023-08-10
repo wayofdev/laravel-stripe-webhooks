@@ -467,6 +467,12 @@ foreach ($stripeInvoice->lines as $invoiceLine) {
 
 <br>
 
+## ⚡️Sequence Diagram
+
+![Architecture Diagram](assets/diagram.svg)
+
+<br>
+
 ## 🧪 Running Tests
 
 ### → PHPUnit Tests
