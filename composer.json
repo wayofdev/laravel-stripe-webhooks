@@ -1,6 +1,6 @@
 {
     "name": "wayofdev/laravel-stripe-webhooks",
-    "description": "PHP package template with GitHub Actions",
+    "description": "Handle Stripe webhooks in a Laravel application with support of Cycle-ORM.",
     "type": "library",
     "license": "MIT",
     "homepage": "https://wayof.dev",
@@ -16,8 +16,9 @@
     ],
     "require": {
         "php": "^8.2",
+        "cycle/database": "^2.5",
         "cycle/orm": "^2.3",
-        "laravel/framework": "^v10.17",
+        "laravel/framework": "^v10.18",
         "stripe/stripe-php": "^10.20",
         "wayofdev/laravel-webhook-client": "^1.0"
     },
