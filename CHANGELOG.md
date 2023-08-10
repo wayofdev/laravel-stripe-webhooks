@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.0.4...v1.1.0) (2023-08-10)
+
+
+### Features
+
+* add orm repo support, documentation ([af77108](https://github.com/wayofdev/laravel-stripe-webhooks/commit/af771081c6c128db73a74878ca2fbf28465d464f))
+
+
+### Documentation
+
+* add diagram ([72f25e4](https://github.com/wayofdev/laravel-stripe-webhooks/commit/72f25e4c3954aa3d9a63bd38985f2d341403cd4e))
+
 ## [1.0.4](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.0.3...v1.0.4) (2023-08-10)
 
 
