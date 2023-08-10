@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.0.4](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.0.3...v1.0.4) (2023-08-10)
+
+
+### Miscellaneous
+
+* **deps:** update dependency orchestra/testbench to v8.6.3 ([508c1a5](https://github.com/wayofdev/laravel-stripe-webhooks/commit/508c1a54ba1e4f75d7ec6a16408ea3bb50d276ef))
+
+## [1.0.3](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.0.2...v1.0.3) (2023-08-09)
+
+
+### Miscellaneous
+
+* **deps:** update dependency pestphp/pest to v2.13.0 ([f462c44](https://github.com/wayofdev/laravel-stripe-webhooks/commit/f462c4457ede4689b7c073eb3a45246b41ba6f1f))
+
 ## [1.0.2](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.0.1...v1.0.2) (2023-08-09)
 
 
