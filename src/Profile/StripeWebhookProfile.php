@@ -13,10 +13,14 @@ use WayOfDev\WebhookClient\Persistence\ORMWebhookCallRepository;
 
 class StripeWebhookProfile implements WebhookProfile
 {
+    public function __construct(private readonly ORMInterface $orm)
+    {
+    }
+
     public function shouldProcess(Request $request): bool
     {
         /** @var ORMWebhookCallRepository $webhookCallsRepository */
-        $webhookCallsRepository = app(ORMInterface::class)->getRepository(WebhookCall::class);
+        $webhookCallsRepository = $this->orm->getRepository(WebhookCall::class);
 
         $exists = $webhookCallsRepository
             ->select()

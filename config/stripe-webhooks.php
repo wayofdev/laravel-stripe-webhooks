@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 use WayOfDev\StripeWebhooks\Profile\StripeWebhookProfile;
 use WayOfDev\WebhookClient\Entities\WebhookCall;
+use WayOfDev\WebhookClient\Persistence\ORMWebhookCallRepository;
 
 return [
     /*
@@ -32,10 +33,16 @@ return [
     ],
 
     /*
-     * The classname of the model to be used. The class should equal or extend
-     * WayOfDev\WebhookClient\Entities\WebhookCall.
+     * The classname of the entity to be used to store webhook calls. The class should
+     * be equal or extend WayOfDev\WebhookClient\Entities\WebhookCall.
      */
     'entity' => WebhookCall::class,
+
+    /*
+     * The classname of the repository to be used to store webhook calls. The class should
+     * implement WayOfDev\WebhookClient\Contracts\WebhookCallRepository.
+     */
+    'entity_repository' => ORMWebhookCallRepository::class,
 
     /*
      * This class determines if the webhook call should be stored and processed.

@@ -34,6 +34,7 @@ class StripeWebhooksController
             'signature_validator' => StripeSignatureValidator::class,
             'webhook_profile' => config('stripe-webhooks.profile'),
             'webhook_entity' => config('stripe-webhooks.entity'),
+            'webhook_entity_repository' => config('stripe-webhooks.entity_repository'),
             'process_webhook_job' => ProcessStripeWebhookJob::class,
         ]);
 
