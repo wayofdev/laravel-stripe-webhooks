@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.2...v1.1.3) (2023-08-10)
+
+
+### Miscellaneous
+
+* **deps:** update dependency pestphp/pest-plugin-laravel to v2.2.0 ([663ce55](https://github.com/wayofdev/laravel-stripe-webhooks/commit/663ce555370f964bd76a9e4344fdec199b6a1ad0))
+
 ## [1.1.2](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.1...v1.1.2) (2023-08-10)
 
 
