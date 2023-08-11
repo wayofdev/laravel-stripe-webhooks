@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.4...v1.1.5) (2023-08-11)
+
+
+### Miscellaneous
+
+* **deps:** update dependency ergebnis/composer-normalize to v2.35.0 ([fd3a80d](https://github.com/wayofdev/laravel-stripe-webhooks/commit/fd3a80d875e29f85f2975778709c4a8c39000e05))
+
 ## [1.1.4](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.3...v1.1.4) (2023-08-11)
 
 
