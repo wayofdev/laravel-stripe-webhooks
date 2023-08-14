@@ -6000,16 +6000,16 @@
         },
         {
             "name": "wayofdev/laravel-cycle-orm-adapter",
-            "version": "v4.0.53",
+            "version": "v4.0.54",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-cycle-orm-adapter.git",
-                "reference": "e74fe08c474a065d166c38044e21fa725e201bb6"
+                "reference": "d814df82c611d21c67607a5295dad9a8912a8383"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/e74fe08c474a065d166c38044e21fa725e201bb6",
-                "reference": "e74fe08c474a065d166c38044e21fa725e201bb6",
+                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/d814df82c611d21c67607a5295dad9a8912a8383",
+                "reference": "d814df82c611d21c67607a5295dad9a8912a8383",
                 "shasum": ""
             },
             "require": {
@@ -6090,20 +6090,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-12T06:45:13+00:00"
+            "time": "2023-08-14T01:23:25+00:00"
         },
         {
             "name": "wayofdev/laravel-webhook-client",
-            "version": "v1.1.7",
+            "version": "v1.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-webhook-client.git",
-                "reference": "cf4ba07fd5eeba38c6de696fc31625b70e54fb4f"
+                "reference": "829a82a95034613a3b8ceeec34f03c244b8cb9c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/cf4ba07fd5eeba38c6de696fc31625b70e54fb4f",
-                "reference": "cf4ba07fd5eeba38c6de696fc31625b70e54fb4f",
+                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/829a82a95034613a3b8ceeec34f03c244b8cb9c0",
+                "reference": "829a82a95034613a3b8ceeec34f03c244b8cb9c0",
                 "shasum": ""
             },
             "require": {
@@ -6171,7 +6171,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-12T07:37:05+00:00"
+            "time": "2023-08-14T02:00:08+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -7911,16 +7911,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.16.0",
+            "version": "v4.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "19526a33fb561ef417e822e85f08a00db4059c17"
+                "reference": "a6303e50c90c355c7eeee2c4a8b27fe8dc8fef1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/19526a33fb561ef417e822e85f08a00db4059c17",
-                "reference": "19526a33fb561ef417e822e85f08a00db4059c17",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/a6303e50c90c355c7eeee2c4a8b27fe8dc8fef1d",
+                "reference": "a6303e50c90c355c7eeee2c4a8b27fe8dc8fef1d",
                 "shasum": ""
             },
             "require": {
@@ -7961,9 +7961,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v4.16.0"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v4.17.1"
             },
-            "time": "2023-06-25T14:52:30+00:00"
+            "time": "2023-08-13T19:53:39+00:00"
         },
         {
             "name": "nunomaduro/collision",
