@@ -19,7 +19,7 @@
         "cycle/database": "^2.5",
         "cycle/orm": "^2.3",
         "laravel/framework": "^v10.18",
-        "stripe/stripe-php": "^10.20",
+        "stripe/stripe-php": "^11.0",
         "wayofdev/laravel-webhook-client": "^1.0"
     },
     "require-dev": {
