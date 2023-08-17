@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.27](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.26...v1.1.27) (2023-08-17)
+
+
+### Miscellaneous
+
+* **deps:** update dependency orchestra/testbench to v8.8.3 ([b4af27a](https://github.com/wayofdev/laravel-stripe-webhooks/commit/b4af27a15c52cc50eb3b2320e8cf937ad51aecda))
+
 ## [1.1.26](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.25...v1.1.26) (2023-08-17)
 
 
