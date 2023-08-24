@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.48](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.47...v1.1.48) (2023-08-24)
+
+
+### Miscellaneous
+
+* **deps:** update dependency phpstan/phpstan to v1.10.32 ([35d37ad](https://github.com/wayofdev/laravel-stripe-webhooks/commit/35d37ad55689989e08188d233d64f6df55743479))
+
 ## [1.1.47](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.46...v1.1.47) (2023-08-24)
 
 
