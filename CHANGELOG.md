@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.51](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.50...v1.1.51) (2023-08-25)
+
+
+### Miscellaneous
+
+* **deps:** update dependency phpstan/phpstan-phpunit to v1.3.14 ([3d3b4ff](https://github.com/wayofdev/laravel-stripe-webhooks/commit/3d3b4ff39ec4a7deed948ffd66550ed25d2bf9e2))
+
 ## [1.1.50](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.49...v1.1.50) (2023-08-25)
 
 
