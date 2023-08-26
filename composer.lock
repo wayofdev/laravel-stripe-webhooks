@@ -3593,16 +3593,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v6.3.2",
+            "version": "v6.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "aa5d64ad3f63f2e48964fc81ee45cb318a723898"
+                "reference": "eca495f2ee845130855ddf1cf18460c38966c8b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/aa5d64ad3f63f2e48964fc81ee45cb318a723898",
-                "reference": "aa5d64ad3f63f2e48964fc81ee45cb318a723898",
+                "url": "https://api.github.com/repos/symfony/console/zipball/eca495f2ee845130855ddf1cf18460c38966c8b6",
+                "reference": "eca495f2ee845130855ddf1cf18460c38966c8b6",
                 "shasum": ""
             },
             "require": {
@@ -3663,7 +3663,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v6.3.2"
+                "source": "https://github.com/symfony/console/tree/v6.3.4"
             },
             "funding": [
                 {
@@ -3679,7 +3679,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-19T20:17:28+00:00"
+            "time": "2023-08-16T10:10:12+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -4109,16 +4109,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v6.3.2",
+            "version": "v6.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "43ed99d30f5f466ffa00bdac3f5f7aa9cd7617c3"
+                "reference": "cac1556fdfdf6719668181974104e6fcfa60e844"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/43ed99d30f5f466ffa00bdac3f5f7aa9cd7617c3",
-                "reference": "43ed99d30f5f466ffa00bdac3f5f7aa9cd7617c3",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/cac1556fdfdf6719668181974104e6fcfa60e844",
+                "reference": "cac1556fdfdf6719668181974104e6fcfa60e844",
                 "shasum": ""
             },
             "require": {
@@ -4166,7 +4166,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v6.3.2"
+                "source": "https://github.com/symfony/http-foundation/tree/v6.3.4"
             },
             "funding": [
                 {
@@ -4182,7 +4182,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-23T21:58:39+00:00"
+            "time": "2023-08-22T08:20:46+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -6052,16 +6052,16 @@
         },
         {
             "name": "wayofdev/laravel-cycle-orm-adapter",
-            "version": "v4.0.74",
+            "version": "v4.0.75",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-cycle-orm-adapter.git",
-                "reference": "80165c5afef9ce8d0f168f72af00936cf58d2f3c"
+                "reference": "57cb73e9dbc6c4230490ec48e001f34784dc82d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/80165c5afef9ce8d0f168f72af00936cf58d2f3c",
-                "reference": "80165c5afef9ce8d0f168f72af00936cf58d2f3c",
+                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/57cb73e9dbc6c4230490ec48e001f34784dc82d2",
+                "reference": "57cb73e9dbc6c4230490ec48e001f34784dc82d2",
                 "shasum": ""
             },
             "require": {
@@ -6142,20 +6142,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-25T12:09:06+00:00"
+            "time": "2023-08-26T15:28:52+00:00"
         },
         {
             "name": "wayofdev/laravel-webhook-client",
-            "version": "v1.1.43",
+            "version": "v1.1.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-webhook-client.git",
-                "reference": "e62712b4f476c3d3911a46f6fb94ce326eeadcdc"
+                "reference": "0e0a090b86cd9af5d55322d6cd96688510bd5320"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/e62712b4f476c3d3911a46f6fb94ce326eeadcdc",
-                "reference": "e62712b4f476c3d3911a46f6fb94ce326eeadcdc",
+                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/0e0a090b86cd9af5d55322d6cd96688510bd5320",
+                "reference": "0e0a090b86cd9af5d55322d6cd96688510bd5320",
                 "shasum": ""
             },
             "require": {
@@ -6223,7 +6223,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-25T14:53:30+00:00"
+            "time": "2023-08-26T19:00:33+00:00"
         },
         {
             "name": "webmozart/assert",
