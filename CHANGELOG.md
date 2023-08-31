@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.60](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.59...v1.1.60) (2023-08-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stripe/stripe-php to v12.1.0 ([ededd1d](https://github.com/wayofdev/laravel-stripe-webhooks/commit/ededd1d5401da2446610a64e4222e4823f45b85b))
+
 ## [1.1.59](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.58...v1.1.59) (2023-08-30)
 
 
