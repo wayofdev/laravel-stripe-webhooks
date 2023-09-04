@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.71](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.70...v1.1.71) (2023-09-04)
+
+
+### Miscellaneous
+
+* **deps:** update actions/checkout action to v4 ([63b897f](https://github.com/wayofdev/laravel-stripe-webhooks/commit/63b897fbe7d17a9abb083a5b9b323e0f607d2523))
+
 ## [1.1.70](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.69...v1.1.70) (2023-09-04)
 
 
