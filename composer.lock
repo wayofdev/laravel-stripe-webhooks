@@ -6145,16 +6145,16 @@
         },
         {
             "name": "wayofdev/laravel-webhook-client",
-            "version": "v1.1.71",
+            "version": "v1.1.72",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-webhook-client.git",
-                "reference": "53a7087b9c31e4f0aebc23843524973a4f0540f9"
+                "reference": "a929721e6d697f4c95d440ae3882449db38cf665"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/53a7087b9c31e4f0aebc23843524973a4f0540f9",
-                "reference": "53a7087b9c31e4f0aebc23843524973a4f0540f9",
+                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/a929721e6d697f4c95d440ae3882449db38cf665",
+                "reference": "a929721e6d697f4c95d440ae3882449db38cf665",
                 "shasum": ""
             },
             "require": {
@@ -6222,7 +6222,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-09-08T22:17:36+00:00"
+            "time": "2023-09-09T01:56:11+00:00"
         },
         {
             "name": "webmozart/assert",
