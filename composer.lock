@@ -6051,16 +6051,16 @@
         },
         {
             "name": "wayofdev/laravel-cycle-orm-adapter",
-            "version": "v4.0.91",
+            "version": "v4.0.92",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-cycle-orm-adapter.git",
-                "reference": "60a6444e361cc04bc3150a472704b0c025cff4ef"
+                "reference": "6a4452f7bf973535b3c979c1def74fc974d4d0a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/60a6444e361cc04bc3150a472704b0c025cff4ef",
-                "reference": "60a6444e361cc04bc3150a472704b0c025cff4ef",
+                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/6a4452f7bf973535b3c979c1def74fc974d4d0a7",
+                "reference": "6a4452f7bf973535b3c979c1def74fc974d4d0a7",
                 "shasum": ""
             },
             "require": {
@@ -6141,20 +6141,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-09-08T22:46:28+00:00"
+            "time": "2023-09-11T01:22:04+00:00"
         },
         {
             "name": "wayofdev/laravel-webhook-client",
-            "version": "v1.1.72",
+            "version": "v1.1.73",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-webhook-client.git",
-                "reference": "a929721e6d697f4c95d440ae3882449db38cf665"
+                "reference": "0a46b83d3ce63f0827eab070df86cf893fbaea32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/a929721e6d697f4c95d440ae3882449db38cf665",
-                "reference": "a929721e6d697f4c95d440ae3882449db38cf665",
+                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/0a46b83d3ce63f0827eab070df86cf893fbaea32",
+                "reference": "0a46b83d3ce63f0827eab070df86cf893fbaea32",
                 "shasum": ""
             },
             "require": {
@@ -6222,7 +6222,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-09-09T01:56:11+00:00"
+            "time": "2023-09-11T04:23:56+00:00"
         },
         {
             "name": "webmozart/assert",
