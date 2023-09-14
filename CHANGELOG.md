@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.92](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.91...v1.1.92) (2023-09-14)
+
+
+### Miscellaneous
+
+* **deps:** update codecov/codecov-action action to v4 ([7d4bc86](https://github.com/wayofdev/laravel-stripe-webhooks/commit/7d4bc86b9adafd17b9a68ab8440498c5057ecc8d))
+
 ## [1.1.91](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.90...v1.1.91) (2023-09-14)
 
 
