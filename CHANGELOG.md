@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.91](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.90...v1.1.91) (2023-09-14)
+
+
+### Miscellaneous
+
+* **deps:** update dependency wayofdev/cs-fixer-config to v1.2.60 ([f22fcef](https://github.com/wayofdev/laravel-stripe-webhooks/commit/f22fcef5842914262c3064624405f65e3b5fbe61))
+
 ## [1.1.90](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.89...v1.1.90) (2023-09-14)
 
 
