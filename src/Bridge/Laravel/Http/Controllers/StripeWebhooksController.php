@@ -20,7 +20,7 @@ class StripeWebhooksController
      * @throws InvalidWebhookSignature
      * @throws InvalidConfig
      */
-    public function __invoke(Request $request, ORMInterface $orm, string $configKey = null)
+    public function __invoke(Request $request, ORMInterface $orm, ?string $configKey = null)
     {
         /** @var WebhookCallRepository $repository */
         $repository = $orm->getRepository(config('stripe-webhooks.entity'));

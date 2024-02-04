@@ -77,7 +77,7 @@ abstract class TestCase extends Orchestra
     /**
      * @throws JsonException
      */
-    protected function determineStripeSignature(array $payload, string $configKey = null): string
+    protected function determineStripeSignature(array $payload, ?string $configKey = null): string
     {
         $secret = (null !== $configKey) ?
             config("stripe-webhooks.signing_secret_{$configKey}") :
