@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.0.0...v2.1.0) (2024-02-05)
+
+
+### Features
+
+* use native cycle-orm json methods ([7f25f04](https://github.com/wayofdev/laravel-stripe-webhooks/commit/7f25f04dd74e4cd7c126e88ad26bf102b94566d2))
+
 ## [2.0.0](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.94...v2.0.0) (2024-02-04)
 
 
