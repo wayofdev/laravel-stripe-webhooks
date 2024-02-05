@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.94...v2.0.0) (2024-02-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* update dependencies, update stripe to v13.x
+
+### Features
+
+* update dependencies, update stripe to v13.x ([864542f](https://github.com/wayofdev/laravel-stripe-webhooks/commit/864542fd20519cf5830f4d098eb3ac697dbd9736))
+
+
+### Bug Fixes
+
+* update labeler ([ff7f975](https://github.com/wayofdev/laravel-stripe-webhooks/commit/ff7f975988d92d76599b650325c180e1f81f9c25))
+
 ## [1.1.94](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.93...v1.1.94) (2023-09-15)
 
 
