@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace WayOfDev\StripeWebhooks\Tests;
 
-use Cycle\Database\Injection\Parameter;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Route;
 use JsonException;
@@ -249,7 +248,7 @@ final class IntegrationTest extends TestCase
         return $this->repository
             ->select()
             ->where(['name' => 'stripe'])
-            ->andWhere("JSON_EXTRACT(payload, '$.id')", '=', new Parameter(['payloadId' => $payloadId]))
+            ->whereJson('payload->id', $payloadId)
             ->fetchAll();
     }
 }

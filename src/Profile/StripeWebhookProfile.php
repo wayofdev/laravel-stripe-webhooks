@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace WayOfDev\StripeWebhooks\Profile;
 
-use Cycle\Database\Injection\Parameter;
 use Cycle\ORM\ORMInterface;
 use Illuminate\Http\Request;
 use WayOfDev\WebhookClient\Contracts\WebhookProfile;
@@ -25,7 +24,7 @@ class StripeWebhookProfile implements WebhookProfile
         $exists = $webhookCallsRepository
             ->select()
             ->where(['name' => 'stripe'])
-            ->andWhere("JSON_EXTRACT(payload, '$.id')", '=', new Parameter(['payloadId' => $request->get('id')]))
+            ->whereJson('payload->id', $request->get('id'))
             ->count();
 
         return 0 === $exists;
