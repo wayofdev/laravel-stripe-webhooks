@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.3](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.2...v2.1.3) (2024-02-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cycle/orm to v2.7.0 ([11e9f7f](https://github.com/wayofdev/laravel-stripe-webhooks/commit/11e9f7f5999ee3b683c68e1de5415caf8ea15f83))
+
 ## [2.1.2](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.1...v2.1.2) (2024-02-09)
 
 
