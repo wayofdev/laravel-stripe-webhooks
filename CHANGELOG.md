@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.7](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.6...v2.1.7) (2024-02-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency wayofdev/laravel-webhook-client to v1.2.8 ([94570fd](https://github.com/wayofdev/laravel-stripe-webhooks/commit/94570fd280a0c533e1f3e286416cac6a048c012e))
+
 ## [2.1.6](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.5...v2.1.6) (2024-02-13)
 
 
