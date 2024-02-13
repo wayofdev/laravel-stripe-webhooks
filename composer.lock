@@ -6227,16 +6227,16 @@
         },
         {
             "name": "wayofdev/laravel-cycle-orm-adapter",
-            "version": "v4.1.9",
+            "version": "v4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-cycle-orm-adapter.git",
-                "reference": "b253c09fc127f2fb1d105288fd020fbb6b33d8e0"
+                "reference": "34108ea8b7da1a73ba3d9e0e1da4c01e38a1fff9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/b253c09fc127f2fb1d105288fd020fbb6b33d8e0",
-                "reference": "b253c09fc127f2fb1d105288fd020fbb6b33d8e0",
+                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/34108ea8b7da1a73ba3d9e0e1da4c01e38a1fff9",
+                "reference": "34108ea8b7da1a73ba3d9e0e1da4c01e38a1fff9",
                 "shasum": ""
             },
             "require": {
@@ -6257,6 +6257,7 @@
                 "symfony/console": "^6.4"
             },
             "require-dev": {
+                "beberlei/assert": "^3.3",
                 "ergebnis/composer-normalize": "^2.30",
                 "fakerphp/faker": "^1.21",
                 "jetbrains/phpstorm-attributes": "^1.0",
@@ -6317,20 +6318,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-12T09:49:37+00:00"
+            "time": "2024-02-13T15:51:37+00:00"
         },
         {
             "name": "wayofdev/laravel-webhook-client",
-            "version": "v1.2.8",
+            "version": "v1.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-webhook-client.git",
-                "reference": "1b8ded90228339addc06de20b879139fa07d9b2d"
+                "reference": "cb03368df1e6f6877f40d62e5b5d91b72b2d0e78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/1b8ded90228339addc06de20b879139fa07d9b2d",
-                "reference": "1b8ded90228339addc06de20b879139fa07d9b2d",
+                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/cb03368df1e6f6877f40d62e5b5d91b72b2d0e78",
+                "reference": "cb03368df1e6f6877f40d62e5b5d91b72b2d0e78",
                 "shasum": ""
             },
             "require": {
@@ -6398,7 +6399,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-13T11:13:37+00:00"
+            "time": "2024-02-13T16:08:04+00:00"
         },
         {
             "name": "webmozart/assert",
