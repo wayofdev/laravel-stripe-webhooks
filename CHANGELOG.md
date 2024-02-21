@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.13](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.12...v2.1.13) (2024-02-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel/framework to v10.45.1 ([746bab7](https://github.com/wayofdev/laravel-stripe-webhooks/commit/746bab797612e9ed6ad90abc9e877e70e672d66d))
+
 ## [2.1.12](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.11...v2.1.12) (2024-02-20)
 
 
