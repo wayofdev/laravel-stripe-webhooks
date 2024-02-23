@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.15](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.14...v2.1.15) (2024-02-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stripe/stripe-php to v13.12.0 ([018693d](https://github.com/wayofdev/laravel-stripe-webhooks/commit/018693d54e90605dd496193cfee8843d507b5c83))
+
 ## [2.1.14](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.13...v2.1.14) (2024-02-21)
 
 
