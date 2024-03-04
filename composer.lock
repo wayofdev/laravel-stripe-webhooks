@@ -132,30 +132,30 @@
         },
         {
             "name": "cycle/annotated",
-            "version": "v3.5.0",
+            "version": "v4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cycle/annotated.git",
-                "reference": "4024d2ea9b5656cdd0bf4e79acc485dc063b8273"
+                "reference": "7dad356336ee70ef1f6e7b750274d4d215a691f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cycle/annotated/zipball/4024d2ea9b5656cdd0bf4e79acc485dc063b8273",
-                "reference": "4024d2ea9b5656cdd0bf4e79acc485dc063b8273",
+                "url": "https://api.github.com/repos/cycle/annotated/zipball/7dad356336ee70ef1f6e7b750274d4d215a691f1",
+                "reference": "7dad356336ee70ef1f6e7b750274d4d215a691f1",
                 "shasum": ""
             },
             "require": {
                 "cycle/orm": "^2.7",
                 "cycle/schema-builder": "^2.8",
-                "doctrine/annotations": "^1.14.3 || ^2.0.1",
                 "doctrine/inflector": "^2.0",
-                "php": ">=8.0",
+                "php": ">=8.1",
                 "spiral/attributes": "^2.8|^3.0",
                 "spiral/tokenizer": "^2.8|^3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.6",
-                "vimeo/psalm": "^4.30"
+                "doctrine/annotations": "^1.14.3 || ^2.0.1",
+                "phpunit/phpunit": "^10.1",
+                "vimeo/psalm": "^5.11"
             },
             "type": "library",
             "autoload": {
@@ -167,18 +167,39 @@
             "license": [
                 "MIT"
             ],
+            "authors": [
+                {
+                    "name": "Anton Titov (wolfy-j)",
+                    "email": "wolfy-j@spiralscout.com"
+                },
+                {
+                    "name": "Aleksei Gagarin (roxblnfk)",
+                    "email": "alexey.gagarin@spiralscout.com"
+                },
+                {
+                    "name": "Pavel Butchnev (butschster)",
+                    "email": "pavel.buchnev@spiralscout.com"
+                },
+                {
+                    "name": "Maksim Smakouz (msmakouz)",
+                    "email": "maksim.smakouz@spiralscout.com"
+                }
+            ],
             "description": "Cycle ORM Annotated Entities generator",
+            "homepage": "https://cycle-orm.dev",
             "support": {
+                "chat": "https://discord.gg/spiralphp",
+                "docs": "https://cycle-orm.dev/docs",
                 "issues": "https://github.com/cycle/annotated/issues",
-                "source": "https://github.com/cycle/annotated/tree/v3.5.0"
+                "source": "https://github.com/cycle/annotated"
             },
             "funding": [
                 {
-                    "url": "https://github.com/cycle",
+                    "url": "https://github.com/sponsors/cycle",
                     "type": "github"
                 }
             ],
-            "time": "2024-02-08T21:32:45+00:00"
+            "time": "2024-02-08T21:45:04+00:00"
         },
         {
             "name": "cycle/database",
@@ -664,82 +685,6 @@
                 "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.2"
             },
             "time": "2022-10-27T11:44:00+00:00"
-        },
-        {
-            "name": "doctrine/annotations",
-            "version": "2.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/annotations.git",
-                "reference": "e157ef3f3124bbf6fe7ce0ffd109e8a8ef284e7f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/e157ef3f3124bbf6fe7ce0ffd109e8a8ef284e7f",
-                "reference": "e157ef3f3124bbf6fe7ce0ffd109e8a8ef284e7f",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/lexer": "^2 || ^3",
-                "ext-tokenizer": "*",
-                "php": "^7.2 || ^8.0",
-                "psr/cache": "^1 || ^2 || ^3"
-            },
-            "require-dev": {
-                "doctrine/cache": "^2.0",
-                "doctrine/coding-standard": "^10",
-                "phpstan/phpstan": "^1.8.0",
-                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
-                "symfony/cache": "^5.4 || ^6",
-                "vimeo/psalm": "^4.10"
-            },
-            "suggest": {
-                "php": "PHP 8.0 or higher comes with attributes, a native replacement for annotations"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Doctrine\\Common\\Annotations\\": "lib/Doctrine/Common/Annotations"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
-                },
-                {
-                    "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
-                },
-                {
-                    "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
-                },
-                {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
-                },
-                {
-                    "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com"
-                }
-            ],
-            "description": "Docblock Annotations Parser",
-            "homepage": "https://www.doctrine-project.org/projects/annotations.html",
-            "keywords": [
-                "annotations",
-                "docblock",
-                "parser"
-            ],
-            "support": {
-                "issues": "https://github.com/doctrine/annotations/issues",
-                "source": "https://github.com/doctrine/annotations/tree/2.0.1"
-            },
-            "time": "2023-02-02T22:02:53+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -6225,20 +6170,20 @@
         },
         {
             "name": "wayofdev/laravel-cycle-orm-adapter",
-            "version": "v4.6.0",
+            "version": "v4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-cycle-orm-adapter.git",
-                "reference": "5e47aef40e3366921eb7669eb1dbaa2b22b83d95"
+                "reference": "2646182154c7ebe632b6ca875e3e3f1d47473e6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/5e47aef40e3366921eb7669eb1dbaa2b22b83d95",
-                "reference": "5e47aef40e3366921eb7669eb1dbaa2b22b83d95",
+                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/2646182154c7ebe632b6ca875e3e3f1d47473e6f",
+                "reference": "2646182154c7ebe632b6ca875e3e3f1d47473e6f",
                 "shasum": ""
             },
             "require": {
-                "cycle/annotated": "^3.5",
+                "cycle/annotated": "^4.1",
                 "cycle/database": "^2.8",
                 "cycle/entity-behavior": "^1.3",
                 "cycle/migrations": "^4.2",
@@ -6316,39 +6261,39 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-03T02:49:41+00:00"
+            "time": "2024-03-04T22:27:12+00:00"
         },
         {
             "name": "wayofdev/laravel-webhook-client",
-            "version": "v1.2.19",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-webhook-client.git",
-                "reference": "28caa2dad53182d12c12a299eabd8738aaaf6652"
+                "reference": "b8649ef146f7b7b54d316d4e4640e6de432c8255"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/28caa2dad53182d12c12a299eabd8738aaaf6652",
-                "reference": "28caa2dad53182d12c12a299eabd8738aaaf6652",
+                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/b8649ef146f7b7b54d316d4e4640e6de432c8255",
+                "reference": "b8649ef146f7b7b54d316d4e4640e6de432c8255",
                 "shasum": ""
             },
             "require": {
-                "cycle/annotated": "^3.4",
-                "cycle/database": "^2.7",
-                "cycle/entity-behavior": "^1.2",
-                "cycle/orm": "^2.6",
+                "cycle/annotated": "^4.1",
+                "cycle/database": "^2.8",
+                "cycle/entity-behavior": "^1.3",
+                "cycle/orm": "^2.7",
                 "ext-pdo": "*",
-                "laravel/framework": "^v10.43",
+                "laravel/framework": "^v10.46",
                 "php": "^8.2",
                 "symfony/http-foundation": "^6.4",
-                "wayofdev/laravel-cycle-orm-adapter": "^4.1"
+                "wayofdev/laravel-cycle-orm-adapter": "^4.7"
             },
             "require-dev": {
                 "ergebnis/composer-normalize": "^2.42",
-                "nunomaduro/larastan": "^2.8",
+                "larastan/larastan": "^2.9",
                 "orchestra/testbench": "^8.21",
-                "pestphp/pest": "^2.33",
-                "pestphp/pest-plugin-laravel": "^2.2",
+                "pestphp/pest": "^2.34",
+                "pestphp/pest-plugin-laravel": "^2.3",
                 "phpstan/extension-installer": "^1.3",
                 "phpstan/phpstan": "^1.10",
                 "phpstan/phpstan-deprecation-rules": "^1.1",
@@ -6397,7 +6342,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-03T03:36:43+00:00"
+            "time": "2024-03-04T22:51:05+00:00"
         },
         {
             "name": "webmozart/assert",
