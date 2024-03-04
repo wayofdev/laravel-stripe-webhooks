@@ -1,5 +1,190 @@
 # Changelog
 
+## [2.1.23](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.22...v2.1.23) (2024-03-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency wayofdev/laravel-webhook-client to v1.3.0 ([f817282](https://github.com/wayofdev/laravel-stripe-webhooks/commit/f8172820de08de4a35b120d7dc14f4f85c9e6755))
+
+## [2.1.22](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.21...v2.1.22) (2024-03-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency wayofdev/laravel-webhook-client to v1.2.19 ([d865181](https://github.com/wayofdev/laravel-stripe-webhooks/commit/d8651818a469ecdbbbe6a137a415ad6ac569825c))
+
+## [2.1.21](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.20...v2.1.21) (2024-02-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stripe/stripe-php to v13.13.0 ([f81a630](https://github.com/wayofdev/laravel-stripe-webhooks/commit/f81a63080545b31174351d7ac17c8b51615648e5))
+
+## [2.1.20](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.19...v2.1.20) (2024-02-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency wayofdev/laravel-webhook-client to v1.2.18 ([bce03ef](https://github.com/wayofdev/laravel-stripe-webhooks/commit/bce03ef0c31de00eae4439bd801bdba29618e3ef))
+
+## [2.1.19](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.18...v2.1.19) (2024-02-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency wayofdev/laravel-webhook-client to v1.2.17 ([15b6054](https://github.com/wayofdev/laravel-stripe-webhooks/commit/15b6054516ceaa48958c2bd1ebd8b00470277a2a))
+
+## [2.1.18](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.17...v2.1.18) (2024-02-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel/framework to v10.46.0 ([ff67c3f](https://github.com/wayofdev/laravel-stripe-webhooks/commit/ff67c3f05163cdd6d2a2fc974f1d945562e7cd9f))
+
+## [2.1.17](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.16...v2.1.17) (2024-02-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency wayofdev/laravel-webhook-client to v1.2.15 ([c2e3ba9](https://github.com/wayofdev/laravel-stripe-webhooks/commit/c2e3ba92d89d7d3be54071c1791b9a9d15ca470f))
+
+## [2.1.16](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.15...v2.1.16) (2024-02-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency wayofdev/laravel-webhook-client to v1.2.14 ([3dff0c4](https://github.com/wayofdev/laravel-stripe-webhooks/commit/3dff0c4edafb9833dca401c133a8cc8fc985f04b))
+
+## [2.1.15](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.14...v2.1.15) (2024-02-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stripe/stripe-php to v13.12.0 ([018693d](https://github.com/wayofdev/laravel-stripe-webhooks/commit/018693d54e90605dd496193cfee8843d507b5c83))
+
+## [2.1.14](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.13...v2.1.14) (2024-02-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency wayofdev/laravel-webhook-client to v1.2.12 ([b4d1bbd](https://github.com/wayofdev/laravel-stripe-webhooks/commit/b4d1bbd90923a4fea5ba6d3c2f27d5614323380b))
+
+## [2.1.13](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.12...v2.1.13) (2024-02-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel/framework to v10.45.1 ([746bab7](https://github.com/wayofdev/laravel-stripe-webhooks/commit/746bab797612e9ed6ad90abc9e877e70e672d66d))
+
+## [2.1.12](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.11...v2.1.12) (2024-02-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel/framework to v10.45.0 ([6f551ea](https://github.com/wayofdev/laravel-stripe-webhooks/commit/6f551eaf590cb48c005246b132819c8ebfcb31e3))
+
+## [2.1.11](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.10...v2.1.11) (2024-02-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency wayofdev/laravel-webhook-client to v1.2.11 ([a177446](https://github.com/wayofdev/laravel-stripe-webhooks/commit/a17744665d10c0ada6ca55921c6d3c397ed0cf64))
+
+## [2.1.10](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.9...v2.1.10) (2024-02-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stripe/stripe-php to v13.11.0 ([5ca63f7](https://github.com/wayofdev/laravel-stripe-webhooks/commit/5ca63f7fc97f29ed664cfbde20ac369bba55a56e))
+
+## [2.1.9](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.8...v2.1.9) (2024-02-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel/framework to v10.44.0 ([9db5739](https://github.com/wayofdev/laravel-stripe-webhooks/commit/9db573965b3071a164b2406a4e3b84c0fd1e67d5))
+
+## [2.1.8](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.7...v2.1.8) (2024-02-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency wayofdev/laravel-webhook-client to v1.2.10 ([2c317b5](https://github.com/wayofdev/laravel-stripe-webhooks/commit/2c317b551301294c47d88c3d3e3fe882acaf19ca))
+
+## [2.1.7](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.6...v2.1.7) (2024-02-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency wayofdev/laravel-webhook-client to v1.2.8 ([94570fd](https://github.com/wayofdev/laravel-stripe-webhooks/commit/94570fd280a0c533e1f3e286416cac6a048c012e))
+
+## [2.1.6](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.5...v2.1.6) (2024-02-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cycle/orm to v2.7.1 ([8ba4656](https://github.com/wayofdev/laravel-stripe-webhooks/commit/8ba4656c33c1a88775cba2315b74757ad0c54eda))
+
+## [2.1.5](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.4...v2.1.5) (2024-02-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency wayofdev/laravel-webhook-client to v1.2.7 ([b19742b](https://github.com/wayofdev/laravel-stripe-webhooks/commit/b19742b2e1692223a4e936731fcf968dd3b97eae))
+
+## [2.1.4](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.3...v2.1.4) (2024-02-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency wayofdev/laravel-webhook-client to v1.2.6 ([a232d86](https://github.com/wayofdev/laravel-stripe-webhooks/commit/a232d864ea1ff324df9ad9d67ffb62c7c1345bd3))
+
+## [2.1.3](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.2...v2.1.3) (2024-02-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cycle/orm to v2.7.0 ([11e9f7f](https://github.com/wayofdev/laravel-stripe-webhooks/commit/11e9f7f5999ee3b683c68e1de5415caf8ea15f83))
+
+## [2.1.2](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.1...v2.1.2) (2024-02-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cycle/database to v2.8.1 ([ff9380c](https://github.com/wayofdev/laravel-stripe-webhooks/commit/ff9380c40d406a999307bd7ea21f2c129920ebe0))
+* **deps:** update dependency wayofdev/laravel-webhook-client to v1.2.3 ([0dd9365](https://github.com/wayofdev/laravel-stripe-webhooks/commit/0dd9365524d6117a02049821632ae997c826d789))
+
+## [2.1.1](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.0...v2.1.1) (2024-02-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency wayofdev/laravel-webhook-client to v1.2.1 ([bd284b3](https://github.com/wayofdev/laravel-stripe-webhooks/commit/bd284b30ece358902f291d9726e3a2d548aac89f))
+
+## [2.1.0](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.0.0...v2.1.0) (2024-02-05)
+
+
+### Features
+
+* use native cycle-orm json methods ([7f25f04](https://github.com/wayofdev/laravel-stripe-webhooks/commit/7f25f04dd74e4cd7c126e88ad26bf102b94566d2))
+
+## [2.0.0](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.94...v2.0.0) (2024-02-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* update dependencies, update stripe to v13.x
+
+### Features
+
+* update dependencies, update stripe to v13.x ([864542f](https://github.com/wayofdev/laravel-stripe-webhooks/commit/864542fd20519cf5830f4d098eb3ac697dbd9736))
+
+
+### Bug Fixes
+
+* update labeler ([ff7f975](https://github.com/wayofdev/laravel-stripe-webhooks/commit/ff7f975988d92d76599b650325c180e1f81f9c25))
+
 ## [1.1.94](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v1.1.93...v1.1.94) (2023-09-15)
 
 
