@@ -16,18 +16,18 @@
     ],
     "require": {
         "php": "^8.2",
-        "cycle/database": "^2.7",
-        "cycle/orm": "^2.6",
-        "laravel/framework": "^v10.43",
-        "stripe/stripe-php": "^13.10",
-        "wayofdev/laravel-webhook-client": "^1.2"
+        "cycle/database": "^2.8",
+        "cycle/orm": "^2.7",
+        "laravel/framework": "^v10.46",
+        "stripe/stripe-php": "^13.13",
+        "wayofdev/laravel-webhook-client": "^1.3"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.42",
-        "nunomaduro/larastan": "^2.8",
+        "larastan/larastan": "^2.9",
         "orchestra/testbench": "^8.21",
-        "pestphp/pest": "^2.33",
-        "pestphp/pest-plugin-laravel": "^2.2",
+        "pestphp/pest": "^2.34",
+        "pestphp/pest-plugin-laravel": "^2.3",
         "phpstan/extension-installer": "^1.3",
         "phpstan/phpstan": "^1.10",
         "phpstan/phpstan-deprecation-rules": "^1.1",
