@@ -4,5 +4,17 @@
         "config:base"
     ],
     "automerge": true,
-    "platformAutomerge": true
+    "platformAutomerge": true,
+    "lockFileMaintenance": {
+        "enabled": true,
+        "automerge": true,
+        "automergeType": "pr",
+        "platformAutomerge": true
+    },
+    "packageRules": [
+        {
+            "updateTypes": ["minor", "patch"],
+            "automerge": true
+        }
+    ]
 }
