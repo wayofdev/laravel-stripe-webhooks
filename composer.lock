@@ -1272,142 +1272,6 @@
             "time": "2023-12-03T19:50:20+00:00"
         },
         {
-            "name": "laminas/laminas-hydrator",
-            "version": "4.15.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laminas/laminas-hydrator.git",
-                "reference": "43ccca88313fdcceca37865109dffc69ecd2cf8f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-hydrator/zipball/43ccca88313fdcceca37865109dffc69ecd2cf8f",
-                "reference": "43ccca88313fdcceca37865109dffc69ecd2cf8f",
-                "shasum": ""
-            },
-            "require": {
-                "laminas/laminas-stdlib": "^3.3",
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
-                "webmozart/assert": "^1.10"
-            },
-            "conflict": {
-                "laminas/laminas-servicemanager": "<3.14.0",
-                "zendframework/zend-hydrator": "*"
-            },
-            "require-dev": {
-                "laminas/laminas-coding-standard": "~2.5.0",
-                "laminas/laminas-eventmanager": "^3.12",
-                "laminas/laminas-modulemanager": "^2.15.0",
-                "laminas/laminas-serializer": "^2.17.0",
-                "laminas/laminas-servicemanager": "^3.22.1",
-                "phpbench/phpbench": "^1.2.14",
-                "phpunit/phpunit": "^10.4.2",
-                "psalm/plugin-phpunit": "^0.18.4",
-                "vimeo/psalm": "^5.15"
-            },
-            "suggest": {
-                "laminas/laminas-eventmanager": "^3.2, to support aggregate hydrator usage",
-                "laminas/laminas-serializer": "^2.9, to use the SerializableStrategy",
-                "laminas/laminas-servicemanager": "^3.14, to support hydrator plugin manager usage"
-            },
-            "type": "library",
-            "extra": {
-                "laminas": {
-                    "component": "Laminas\\Hydrator",
-                    "config-provider": "Laminas\\Hydrator\\ConfigProvider"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Laminas\\Hydrator\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "Serialize objects to arrays, and vice versa",
-            "homepage": "https://laminas.dev",
-            "keywords": [
-                "hydrator",
-                "laminas"
-            ],
-            "support": {
-                "chat": "https://laminas.dev/chat",
-                "docs": "https://docs.laminas.dev/laminas-hydrator/",
-                "forum": "https://discourse.laminas.dev",
-                "issues": "https://github.com/laminas/laminas-hydrator/issues",
-                "rss": "https://github.com/laminas/laminas-hydrator/releases.atom",
-                "source": "https://github.com/laminas/laminas-hydrator"
-            },
-            "funding": [
-                {
-                    "url": "https://funding.communitybridge.org/projects/laminas-project",
-                    "type": "community_bridge"
-                }
-            ],
-            "time": "2023-11-08T11:11:45+00:00"
-        },
-        {
-            "name": "laminas/laminas-stdlib",
-            "version": "3.19.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laminas/laminas-stdlib.git",
-                "reference": "6a192dd0882b514e45506f533b833b623b78fff3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-stdlib/zipball/6a192dd0882b514e45506f533b833b623b78fff3",
-                "reference": "6a192dd0882b514e45506f533b833b623b78fff3",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
-            },
-            "conflict": {
-                "zendframework/zend-stdlib": "*"
-            },
-            "require-dev": {
-                "laminas/laminas-coding-standard": "^2.5",
-                "phpbench/phpbench": "^1.2.15",
-                "phpunit/phpunit": "^10.5.8",
-                "psalm/plugin-phpunit": "^0.18.4",
-                "vimeo/psalm": "^5.20.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Laminas\\Stdlib\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "SPL extensions, array utilities, error handlers, and more",
-            "homepage": "https://laminas.dev",
-            "keywords": [
-                "laminas",
-                "stdlib"
-            ],
-            "support": {
-                "chat": "https://laminas.dev/chat",
-                "docs": "https://docs.laminas.dev/laminas-stdlib/",
-                "forum": "https://discourse.laminas.dev",
-                "issues": "https://github.com/laminas/laminas-stdlib/issues",
-                "rss": "https://github.com/laminas/laminas-stdlib/releases.atom",
-                "source": "https://github.com/laminas/laminas-stdlib"
-            },
-            "funding": [
-                {
-                    "url": "https://funding.communitybridge.org/projects/laminas-project",
-                    "type": "community_bridge"
-                }
-            ],
-            "time": "2024-01-19T12:39:49+00:00"
-        },
-        {
             "name": "laravel/framework",
             "version": "v10.47.0",
             "source": {
@@ -6170,16 +6034,16 @@
         },
         {
             "name": "wayofdev/laravel-cycle-orm-adapter",
-            "version": "v4.7.0",
+            "version": "v4.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-cycle-orm-adapter.git",
-                "reference": "2646182154c7ebe632b6ca875e3e3f1d47473e6f"
+                "reference": "99a66d12625c2f7d1f7c4910913cd3cb4b9ad219"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/2646182154c7ebe632b6ca875e3e3f1d47473e6f",
-                "reference": "2646182154c7ebe632b6ca875e3e3f1d47473e6f",
+                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/99a66d12625c2f7d1f7c4910913cd3cb4b9ad219",
+                "reference": "99a66d12625c2f7d1f7c4910913cd3cb4b9ad219",
                 "shasum": ""
             },
             "require": {
@@ -6195,7 +6059,6 @@
                 "illuminate/console": "^10.45",
                 "illuminate/contracts": "^10.45",
                 "illuminate/support": "^10.45",
-                "laminas/laminas-hydrator": "^4.15",
                 "php": "^8.2",
                 "spiral/attributes": "^3.1",
                 "symfony/console": "^6.4"
@@ -6261,20 +6124,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-04T22:27:12+00:00"
+            "time": "2024-03-07T13:51:39+00:00"
         },
         {
             "name": "wayofdev/laravel-webhook-client",
-            "version": "v1.3.2",
+            "version": "v1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-webhook-client.git",
-                "reference": "b09220c938ac4ae8891b7df101c3f589e85ce480"
+                "reference": "e2cfeef196e37a369949070154d391bbe300d77e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/b09220c938ac4ae8891b7df101c3f589e85ce480",
-                "reference": "b09220c938ac4ae8891b7df101c3f589e85ce480",
+                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/e2cfeef196e37a369949070154d391bbe300d77e",
+                "reference": "e2cfeef196e37a369949070154d391bbe300d77e",
                 "shasum": ""
             },
             "require": {
@@ -6342,7 +6205,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-05T15:43:23+00:00"
+            "time": "2024-03-07T13:30:11+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -8257,16 +8120,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.0.1",
+            "version": "v5.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "2218c2252c874a4624ab2f613d86ac32d227bc69"
+                "reference": "139676794dc1e9231bf7bcd123cfc0c99182cb13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/2218c2252c874a4624ab2f613d86ac32d227bc69",
-                "reference": "2218c2252c874a4624ab2f613d86ac32d227bc69",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/139676794dc1e9231bf7bcd123cfc0c99182cb13",
+                "reference": "139676794dc1e9231bf7bcd123cfc0c99182cb13",
                 "shasum": ""
             },
             "require": {
@@ -8309,9 +8172,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.0.1"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.0.2"
             },
-            "time": "2024-02-21T19:24:10+00:00"
+            "time": "2024-03-05T20:51:40+00:00"
         },
         {
             "name": "nunomaduro/collision",
