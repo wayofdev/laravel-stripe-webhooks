@@ -366,6 +366,75 @@
             "time": "2024-02-08T19:35:15+00:00"
         },
         {
+            "name": "cycle/entity-behavior-uuid",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cycle/entity-behavior-uuid.git",
+                "reference": "04b27fcd5e0b7bce9a596889215f6a999d8cb2e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cycle/entity-behavior-uuid/zipball/04b27fcd5e0b7bce9a596889215f6a999d8cb2e9",
+                "reference": "04b27fcd5e0b7bce9a596889215f6a999d8cb2e9",
+                "shasum": ""
+            },
+            "require": {
+                "cycle/entity-behavior": "^1.3",
+                "php": ">=8.0",
+                "ramsey/uuid": "^4.5"
+            },
+            "require-dev": {
+                "cycle/annotated": "^3.0",
+                "phpunit/phpunit": "^9.5",
+                "spiral/tokenizer": "^2.8",
+                "vimeo/psalm": "^5.11"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cycle\\ORM\\Entity\\Behavior\\Uuid\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Titov (wolfy-j)",
+                    "email": "wolfy-j@spiralscout.com"
+                },
+                {
+                    "name": "Aleksei Gagarin (roxblnfk)",
+                    "email": "alexey.gagarin@spiralscout.com"
+                },
+                {
+                    "name": "Pavel Butchnev (butschster)",
+                    "email": "pavel.buchnev@spiralscout.com"
+                },
+                {
+                    "name": "Maksim Smakouz (msmakouz)",
+                    "email": "maksim.smakouz@spiralscout.com"
+                }
+            ],
+            "description": "Provides an ability to use ramsey/uuid as a Cycle ORM entity column type",
+            "homepage": "https://cycle-orm.dev",
+            "support": {
+                "chat": "https://discord.gg/spiralphp",
+                "docs": "https://cycle-orm.dev/docs",
+                "issues": "https://github.com/cycle/entity-behavior-uuid/issues",
+                "source": "https://github.com/cycle/entity-behavior-uuid"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/cycle",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-02-08T19:43:45+00:00"
+        },
+        {
             "name": "cycle/migrations",
             "version": "v4.2.3",
             "source": {
@@ -6035,22 +6104,23 @@
         },
         {
             "name": "wayofdev/laravel-cycle-orm-adapter",
-            "version": "v4.9.0",
+            "version": "v4.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-cycle-orm-adapter.git",
-                "reference": "5808bbfdb57c83c2850b28239c46b2695384fedf"
+                "reference": "ad14018243648dbae7c71f602878ab037a98bf86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/5808bbfdb57c83c2850b28239c46b2695384fedf",
-                "reference": "5808bbfdb57c83c2850b28239c46b2695384fedf",
+                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/ad14018243648dbae7c71f602878ab037a98bf86",
+                "reference": "ad14018243648dbae7c71f602878ab037a98bf86",
                 "shasum": ""
             },
             "require": {
                 "cycle/annotated": "^4.1",
                 "cycle/database": "^2.8",
                 "cycle/entity-behavior": "^1.3",
+                "cycle/entity-behavior-uuid": "^1.2",
                 "cycle/migrations": "^4.2",
                 "cycle/orm": "^2.7",
                 "cycle/schema-builder": "^2.8",
@@ -6123,20 +6193,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-12T17:12:58+00:00"
+            "time": "2024-03-16T23:11:27+00:00"
         },
         {
             "name": "wayofdev/laravel-webhook-client",
-            "version": "v1.3.8",
+            "version": "v1.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-webhook-client.git",
-                "reference": "406f715693374cb69944a2188f8bf1b2f3d8a3a8"
+                "reference": "3dcece813b6f4d8580a92cc69e0484f3073e1a25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/406f715693374cb69944a2188f8bf1b2f3d8a3a8",
-                "reference": "406f715693374cb69944a2188f8bf1b2f3d8a3a8",
+                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/3dcece813b6f4d8580a92cc69e0484f3073e1a25",
+                "reference": "3dcece813b6f4d8580a92cc69e0484f3073e1a25",
                 "shasum": ""
             },
             "require": {
@@ -6204,7 +6274,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-15T17:45:59+00:00"
+            "time": "2024-03-17T01:18:26+00:00"
         },
         {
             "name": "webmozart/assert",
