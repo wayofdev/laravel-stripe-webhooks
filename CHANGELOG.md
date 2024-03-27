@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.39](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.38...v2.1.39) (2024-03-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cycle/database to v2.9.0 ([8545bb5](https://github.com/wayofdev/laravel-stripe-webhooks/commit/8545bb509a1065c5b81f988a8c0b27f614cf3097))
+
 ## [2.1.38](https://github.com/wayofdev/laravel-stripe-webhooks/compare/v2.1.37...v2.1.38) (2024-03-23)
 
 
