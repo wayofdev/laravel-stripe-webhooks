@@ -25,7 +25,7 @@
     "require-dev": {
         "ergebnis/composer-normalize": "^2.42",
         "larastan/larastan": "^2.9",
-        "orchestra/testbench": "^8.21",
+        "orchestra/testbench": "^9.0",
         "pestphp/pest": "^2.34",
         "pestphp/pest-plugin-laravel": "^2.3",
         "phpstan/extension-installer": "^1.3",
