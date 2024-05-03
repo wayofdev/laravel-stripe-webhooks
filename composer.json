@@ -18,7 +18,7 @@
         "php": "^8.2",
         "cycle/database": "^2.8",
         "cycle/orm": "^2.7",
-        "laravel/framework": "^v10.46",
+        "laravel/framework": "^v11.0.0",
         "stripe/stripe-php": "^14.0",
         "wayofdev/laravel-webhook-client": "^1.3"
     },
