@@ -6111,16 +6111,16 @@
         },
         {
             "name": "wayofdev/laravel-cycle-orm-adapter",
-            "version": "v4.10.1",
+            "version": "4.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-cycle-orm-adapter.git",
-                "reference": "7f02f7eb4c9920fd602248458ba98d713496107f"
+                "reference": "c211928e30349472ec42613d010991f572830901"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/7f02f7eb4c9920fd602248458ba98d713496107f",
-                "reference": "7f02f7eb4c9920fd602248458ba98d713496107f",
+                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/c211928e30349472ec42613d010991f572830901",
+                "reference": "c211928e30349472ec42613d010991f572830901",
                 "shasum": ""
             },
             "require": {
@@ -6134,11 +6134,12 @@
                 "cycle/schema-migrations-generator": "^2.2",
                 "cycle/schema-renderer": "^1.2",
                 "ext-pdo": "*",
-                "illuminate/console": "^10.28 || ^11.0",
-                "illuminate/contracts": "^10.28 || ^11.0",
-                "illuminate/support": "^10.28 || ^11.0",
+                "laravel/framework": "^10.28 || ^11.0",
                 "php": "^8.2",
+                "psr/log": "^3.0",
                 "spiral/attributes": "^3.1",
+                "spiral/core": "^3.12",
+                "spiral/tokenizer": "^3.12",
                 "symfony/console": "^6.4 || ^7.0"
             },
             "require-dev": {
@@ -6146,6 +6147,7 @@
                 "ergebnis/composer-normalize": "^2.42",
                 "fakerphp/faker": "^1.23",
                 "larastan/larastan": "^2.9",
+                "laravel/telescope": "^5.0",
                 "orchestra/testbench": "^8.21 || ^9.0.0",
                 "pestphp/pest": "^2.34",
                 "pestphp/pest-plugin-laravel": "^2.3",
@@ -6158,19 +6160,23 @@
                 "roave/security-advisories": "dev-latest",
                 "wayofdev/cs-fixer-config": "^1.2"
             },
+            "suggest": {
+                "wayofdev/laravel-cycle-orm-factories": "Cycle-ORM Entity Factories and Database Seeders for Laravel",
+                "wayofdev/laravel-paginator": "Custom Laravel Paginator for Cycle-ORM implementing RFC 5988"
+            },
             "type": "library",
             "extra": {
-                "laravel": {
-                    "providers": [
-                        "WayOfDev\\Cycle\\Bridge\\Laravel\\Providers\\CycleServiceProvider"
-                    ],
-                    "aliases": {
-                        "Package": "Cycle"
-                    }
-                },
                 "composer-normalize": {
                     "indent-size": 4,
                     "indent-style": "space"
+                },
+                "laravel": {
+                    "aliases": {
+                        "Package": "Cycle"
+                    },
+                    "providers": [
+                        "WayOfDev\\Cycle\\Bridge\\Laravel\\Providers\\CycleServiceProvider"
+                    ]
                 }
             },
             "autoload": {
@@ -6188,32 +6194,53 @@
                     "email": "the@wayof.dev"
                 }
             ],
-            "description": "PHP package template with GitHub Actions",
-            "homepage": "https://wayof.dev",
+            "description": "🔥 A Laravel adapter for CycleORM, providing seamless integration of the Cycle DataMapper ORM for advanced database handling and object mapping in PHP applications.",
+            "homepage": "https://laravel-cycle-orm-adapter.wayof.dev",
+            "keywords": [
+                "cycle",
+                "cycle-orm",
+                "cycleorm",
+                "data-mapper",
+                "database",
+                "eloquent",
+                "eloquent-alternative",
+                "laravel",
+                "laravel-cycle-orm",
+                "laravel-orm",
+                "mapper",
+                "object-mapping",
+                "orm",
+                "php",
+                "php8",
+                "query-builder",
+                "wayofdev"
+            ],
             "support": {
+                "chat": "https://discord.gg/CE3TcCC5vr",
+                "docs": "https://laravel-cycle-orm-adapter.wayof.dev",
                 "issues": "https://github.com/wayofdev/laravel-cycle-orm-adapter/issues",
                 "source": "https://github.com/wayofdev/laravel-cycle-orm-adapter"
             },
             "funding": [
                 {
-                    "url": "https://github.com/wayofdev",
+                    "url": "https://github.com/sponsors/wayofdev",
                     "type": "github"
                 }
             ],
-            "time": "2024-03-20T02:12:50+00:00"
+            "time": "2024-04-26T20:23:05+00:00"
         },
         {
             "name": "wayofdev/laravel-webhook-client",
-            "version": "v1.3.10",
+            "version": "v1.3.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-webhook-client.git",
-                "reference": "c106db0a277b7880578e90f5a5b7f30149bea066"
+                "reference": "d8e6c6ec8d1a2d3499f78243a48c9bda62b266af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/c106db0a277b7880578e90f5a5b7f30149bea066",
-                "reference": "c106db0a277b7880578e90f5a5b7f30149bea066",
+                "url": "https://api.github.com/repos/wayofdev/laravel-webhook-client/zipball/d8e6c6ec8d1a2d3499f78243a48c9bda62b266af",
+                "reference": "d8e6c6ec8d1a2d3499f78243a48c9bda62b266af",
                 "shasum": ""
             },
             "require": {
@@ -6281,7 +6308,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-20T04:48:41+00:00"
+            "time": "2024-04-12T00:16:50+00:00"
         },
         {
             "name": "webmozart/assert",
